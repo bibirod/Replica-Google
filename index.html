@@ -3,24 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Clon de Google</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <a href="#"><img src="logo.png" alt="Logo de Google" id="logo"></a>
-    <nav>
-      <a href="#">Gmail</a>
-      <a href="#">Imágenes</a>
+    <nav class="links">
+      <a href="https://mail.google.com/">Gmail</a>
+      <a href="https://www.google.com.co/imghp?hl=es-419&authuser=0&ogbl">Imágenes</a>
     </nav>
+    <img src="logo.png" alt="Logo de Google" class="logo">
+   
   </header>
 
   <main>
     <section>
       <form>
-        <input type="text" id="input-search">
-        <div>
-          <a href="#" id="search" class="btn-search">Buscar con Google</a>
-          <a href="#" id="lucky" class="btn-search">Me siento con suerte</a>
+        <input type="text" class="busqueda">
+        <div class="centrar">
+        <div class="centrar"><a href="#" id="search" class="boton">Buscar con Google</a></div>
+        <div class="centrar"><a href="#" id="lucky" class="boton">Me siento con suerte</a></div>
         </div>
       </form>
     </section>
